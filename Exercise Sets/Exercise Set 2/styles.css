@@ -40,17 +40,12 @@ body {
     width: 300px;
     border: 2px solid black;
     border-radius: 10px;
+    padding: 25px;
+    background-color: #FFF2D7;
 
     /* Flex */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-}
-
-.item-1,
-.item-2,
-.item-3 {
-    padding: 25px;
-    background-color: #FFF2D7;
 }
