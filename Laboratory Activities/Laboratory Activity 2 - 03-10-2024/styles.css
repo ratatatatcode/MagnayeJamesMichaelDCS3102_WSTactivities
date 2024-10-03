@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    color: #333333;
+    
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+section > header > h1 {
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 15px;
+}
+
+section > .container {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    max-height: 600px;
+    width: 90vw;
+    max-width: 500px;
+    margin: 10px;
+
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section > .container > .daily-reminder {
+    text-align: center;
+    padding: 5px 10px;
+    line-height: 10%;
+}
+
+section > .container > .daily-reminder > h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+section > .container > .flex-container {
+    /* Flex */
+    margin-block: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+section > .container > .flex-container > img {
+    height: 100px;
+    border-radius: 20px;
+    filter: grayscale(100%);
+}
