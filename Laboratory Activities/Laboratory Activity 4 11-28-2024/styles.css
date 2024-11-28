@@ -7,11 +7,17 @@ body {
     color: white;
     background-color: #697565;
     word-wrap: break-word;
+
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
 }
 
 .container {
-    height: 100vh;
-    width: 100%;
     font-size: 14px;
 
     /* Flex */
@@ -26,7 +32,6 @@ body {
 }
 
 .flex-container {
-    height: 60vh;
     width: 100%;
     margin-inline: 10px;
 
